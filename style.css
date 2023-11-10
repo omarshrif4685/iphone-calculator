@@ -19,6 +19,9 @@ body{
     border-radius: 30px;
     font-size: 20px;
 }
+.zero-button {
+    width: 105px;
+}
 .calcc {
     border: none;
     width: 50px;
@@ -41,3 +44,14 @@ body{
     border: none;
     overflow: auto;
 }
+@media screen and (max-width:443px) { 
+    .button{
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+        
+    }
+    .zero-button{
+        width: 86px;
+    }
+ }
